@@ -1,0 +1,141 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #003366; /* Azul oscuro */
+    color: white;
+    padding: 20px 0;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Sección de Inicio */
+#inicio {
+    background-color: #003366; /* Azul oscuro */
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+#inicio .banner h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+#inicio .banner p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+/* Sección Nosotros */
+#nosotros {
+    padding: 40px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+#nosotros h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#nosotros p {
+    font-size: 1.2em;
+}
+
+/* Sección Servicios */
+#servicios {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#servicios h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#servicios ul {
+    list-style: none;
+    padding: 0;
+}
+
+#servicios ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Sección Contacto */
+#contacto {
+    padding: 40px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+#contacto h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#contacto form input,
+#contacto form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#contacto form button {
+    background-color: #003366; /* Azul oscuro */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#contacto form button:hover {
+    background-color: #005bb5;
+}
+
+/* Estilos para el footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #003366;
+    color: white;
+}
+
+footer p {
+    font-size: 1em;
+}
